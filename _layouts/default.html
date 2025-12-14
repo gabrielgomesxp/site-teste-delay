@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+</head>
+<body>
+    <header style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 20px;">
+        <a href="{{ "/" | relative_url }}" style="text-decoration: none; font-weight: bold; color: #000;">🏠 Home</a>
+    </header>
+    
+    <main>
+        {{ content }}
+    </main>
+    
+    <footer style="margin-top: 50px; font-size: 0.8rem; color: #666; text-align: center;">
+        <p>Criado com Genese CMS</p>
+    </footer>
+</body>
+</html>

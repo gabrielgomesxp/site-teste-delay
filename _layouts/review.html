@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<article class="review-box">
+    <span style="background: #2563eb; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.8rem; text-transform: uppercase;">Review de Produto</span>
+    
+    <h1>{{ page.title }}</h1>
+    <p><strong>Produto Analisado:</strong> {{ page.product_name }} | <strong>Nota:</strong> {{ page.rating }}/5 ⭐</p>
+
+    <div class="content">
+        {{ content }}
+    </div>
+
+    <div class="pros-cons">
+        <div class="pros">
+            <h3>👍 O que é bom</h3>
+            <ul>
+                <li>Alta Performance</li>
+                <li>Design Moderno</li>
+            </ul>
+        </div>
+        <div class="cons">
+            <h3>👎 O que é ruim</h3>
+            <ul>
+                <li>Preço Elevado</li>
+            </ul>
+        </div>
+    </div>
+
+    {% if page.affiliate_link %}
+    <a href="{{ page.affiliate_link }}" class="cta-button" target="_blank">
+        COMPRAR {{ page.product_name | upcase }} COM DESCONTO ➔
+    </a>
+    {% endif %}
+
+</article>
