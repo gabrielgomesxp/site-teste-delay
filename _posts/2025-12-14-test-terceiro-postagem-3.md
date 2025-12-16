@@ -7,4 +7,4 @@ tags:
 published: true
 ---
 
-testando postagem
+testando postagem 2
