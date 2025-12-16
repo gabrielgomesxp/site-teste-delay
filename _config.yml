@@ -1,0 +1,28 @@
+# --- Identidade (Editável pelo Painel) ---
+title: "Meu Novo Site"
+email: "contato@exemplo.com"
+description: "Um site rápido e seguro criado com Genese CMS."
+
+# --- Configurações Técnicas (Não altere se não souber) ---
+baseurl: "" # Deixe vazio para domínio raiz
+url: ""     # O GitHub Pages preenche isso sozinho
+markdown: kramdown
+
+# --- Plugins Padrão ---
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+# --- Exclusões (O que não vai para o site final) ---
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+  - admin/    # Opcional: Se quiser esconder o admin do build público
