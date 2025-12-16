@@ -2,7 +2,7 @@
 layout: page
 title: Test terceiro postagem 3
 permalink: /test-terceiro-postagem-3/
-date: 
+date: 2025-12-16
 tags: 
 published: true
 ---
