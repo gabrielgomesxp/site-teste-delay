@@ -1,4 +1,22 @@
 /* assets/css/style.css */
+/* assets/css/style.css */
+:root {
+    --primary-color: #2271b1;
+    --body-bg: #ffffff;
+    --text-color: #333333;
+}
+
+body {
+    background-color: var(--body-bg);
+    color: var(--text-color);
+    font-family: sans-serif;
+}
+
+a {
+    color: var(--primary-color);
+}
+
+
 body { font-family: 'Helvetica', sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
 h1, h2 { color: #111; }
 img { max-width: 100%; height: auto; border-radius: 8px; }
@@ -15,3 +33,4 @@ img { max-width: 100%; height: auto; border-radius: 8px; }
 /* TEMPLATE C: VSL */
 .vsl-container { text-align: center; max-width: 700px; margin: 0 auto; }
 .vsl-headline { color: #c53030; font-size: 2.5rem; font-weight: 800; line-height: 1.1; margin-bottom: 20px; }
+
