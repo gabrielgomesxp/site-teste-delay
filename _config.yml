@@ -7,7 +7,7 @@ email: "contato@exemplo.com"
 description: "Um site rápido e seguro criado com Genese CMS."
 
 # --- 2. Configurações Técnicas ---
-baseurl: "" 
+baseurl: "/site-teste-delay" 
 url: "" 
 markdown: kramdown
 permalink: /:categories/:title/ # Define que a URL será site.com/categoria/titulo
