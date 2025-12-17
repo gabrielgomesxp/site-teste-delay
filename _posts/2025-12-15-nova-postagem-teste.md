@@ -1,7 +1,7 @@
 ---
 tags: 
 date: 2025-12-17
-title: "Titulo novo"
+title: Titulo novo
 layout: post
 description: descrição de publicação
 published: true
@@ -9,7 +9,7 @@ published: true
 
 Escreva seu conteúdo aqui2 teste 3
 
-TESTE DE POSTAGEM ATUALIZAÇÃO
+TESTE DE POSTAGEM ATUALIZAÇÃO x
 
 
 ![image](assets/img/image-1765988590252.webp)
