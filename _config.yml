@@ -2,9 +2,9 @@
 # Documentação Oficial: https://jekyllrb.com/docs/configuration/
 
 # --- 1. Identidade (Editável pelo Painel) ---
-title: "Meu Novo Site"
+title: "Meu Blog Genese v2"
 email: "contato@exemplo.com"
-description: "Um site rápido e seguro criado com Genese CMS."
+description: "Testando o sistema de toast"
 
 # --- 2. Configurações Técnicas ---
 baseurl: "/site-teste-delay"
