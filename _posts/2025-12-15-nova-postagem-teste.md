@@ -1,12 +1,4 @@
----
-title: nova postagem teste
-layout: post
-date: 2025-12-15
-tags: Natureza
-published: true
----
-
-Escreva seu conteúdo aqui2...
+Escreva seu conteúdo aqui2...2
 
 ![image](assets/img/image-1765919728490.webp)
 
