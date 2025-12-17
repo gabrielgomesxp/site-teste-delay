@@ -6,7 +6,7 @@ tags: Natureza
 published: true
 ---
 
-Escreva seu conteúdo aqui2...j
+Escreva seu conteúdo aqui2...
 
 ![image](assets/img/image-1765919728490.webp)
 
